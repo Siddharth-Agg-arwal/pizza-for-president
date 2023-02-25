@@ -26,6 +26,8 @@ export const ProductsImg = styled.img`
 	min-width: 300px;
 	max-width: 100%;
 	box-shadow: 8px 8px #fdc500;
+	transition: .5s ease;
+  	backface-visibility: hidden;
 `;
 
 export const ProductsHeading = styled.h1`
@@ -57,18 +59,18 @@ export const ProductsPrice = styled.p`
 	font-size: 2rem;
 `;
 
-export const ProductsButton = styled.button`
-	font-size: 1rem;
-	padding: 1rem 4rem;
-	border: none;
-	background: #e31837;
-	color: #fff;
-	transition: 0.2s ease-out;
+// export const ProductsButton = styled.button`
+// 	font-size: 1rem;
+// 	padding: 1rem 4rem;
+// 	border: none;
+// 	background: #e31837;
+// 	color: #fff;
+// 	transition: 0.2s ease-out;
 
-	&:hover {
-		background: #ffc500;
-		transition: 0.2s ease-out;
-		cursor: pointer;
-		color: #000;
-	}
-`;
+// 	&:hover {
+// 		background: #ffc500;
+// 		transition: 0.2s ease-out;
+// 		cursor: pointer;
+// 		color: #000;
+// 	}
+// `;

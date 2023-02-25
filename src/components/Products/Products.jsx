@@ -1,4 +1,6 @@
 import React from 'react';
+import styles from './product.css';
+
 import {
 	ProductsContainer,
 	ProductsHeading,
@@ -9,7 +11,7 @@ import {
 	ProductsTitle,
 	ProductsDesc,
 	ProductsPrice,
-	ProductsButton,
+	// ProductsButton,
 } from './ProductsElements';
 
 function Products({ heading, data }) {
@@ -20,12 +22,12 @@ function Products({ heading, data }) {
 				{data.map((product, index) => {
 					return (
 						<ProductsCard key={index}>
-							<ProductsImg src={product.img} alt={product.alt} />
+							<ProductsImg className='imageHover' src={product.img} alt={product.alt} />
 							<ProductsInfo>
 								<ProductsTitle>{product.name}</ProductsTitle>
 								<ProductsDesc>{product.desc}</ProductsDesc>
 								<ProductsPrice>{product.price}</ProductsPrice>
-								<ProductsButton>{product.button}</ProductsButton>
+								{/* <ProductsButton>{product.button}</ProductsButton> */}
 							</ProductsInfo>
 						</ProductsCard>
 					);
