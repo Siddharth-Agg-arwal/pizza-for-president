@@ -11,10 +11,10 @@ function App() {
 		<Router>
 			<GlobalStyle />
 			<Hero />
-			<Products heading='Which country should we explore today?' data={productData} />
+			<Products heading='Which cuisine should we explore today?' data={productData} />
 			{/* <Products data={productData} /> */}
-			{/* <Feature /> */}
-			{/* <Products heading='Sweet Treats for You' data={productDataTwo} /> */}
+			<Feature />
+			<Products heading='Sweet Treats for You' data={productDataTwo} />
 			<Footer />
 		</Router>
 	);

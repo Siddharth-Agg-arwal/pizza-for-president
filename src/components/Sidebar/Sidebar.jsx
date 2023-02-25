@@ -16,13 +16,13 @@ function Sidebar({ isOpen, toggle }) {
 				<CloseIcon />
 			</Icon>
 			<SidebarMenu>
-				<SidebarLink to='/'>Pizzas</SidebarLink>
+				<SidebarLink to='/'>Meals</SidebarLink>
 				<SidebarLink to='/'>Desserts</SidebarLink>
-				<SidebarLink to='/'>Full Menu</SidebarLink>
+				{/* <SidebarLink to='/'>Full Menu</SidebarLink> */}
 			</SidebarMenu>
-			<SideBtnWrap>
+			{/* <SideBtnWrap>
 				<SidebarRoute to='/'>Order Now</SidebarRoute>
-			</SideBtnWrap>
+			</SideBtnWrap> */}
 		</SidebarContainer>
 	);
 }
