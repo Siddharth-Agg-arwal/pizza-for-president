@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ImgBg from '../../images/landingPage.jpg';
 
-export const HeroContainer = styled.div`
+export const LpContainer = styled.div`
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
 		url(${ImgBg});
 	height: 100vh;
@@ -9,14 +9,14 @@ export const HeroContainer = styled.div`
 	background-size: cover;
 `;
 
-export const HeroContent = styled.div`
+export const LpContent = styled.div`
 	height: calc(100vh-80px);
 	max-height: 100%;
 	/* width: 100vw; */
 	padding: 0rem calc((100vw - 1300px) / 2);
 `;
 
-export const HeroItems = styled.div`
+export const LpItems = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -35,19 +35,19 @@ export const HeroItems = styled.div`
 	}
 `;
 
-export const HeroH1 = styled.h1`
+export const Lph1 = styled.h1`
 	font-size: clamp(2.5rem, 10vw, 5rem);
 	margin-bottom: 1rem;
 	box-shadow: 3px 5px #e9ba23;
 	letter-spacing: 3px;
 `;
 
-export const HeroP = styled.p`
+export const Lpp = styled.p`
 	font-size: clamp(2rem, 2.5vw, 3rem);
 	margin-bottom: 2rem;
 `;
 
-export const HeroBtn = styled.button`
+export const Lpbtn = styled.button`
 	font-size: 1.4rem;
 	padding: 1rem 4rem;
 	border: none;

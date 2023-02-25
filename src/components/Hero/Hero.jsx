@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import NavBar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
+
+
 import {
-	HeroContainer,
-	HeroContent,
-	HeroItems,
-	HeroH1,
-	HeroP,
-	HeroBtn,
+	LpContainer,
+	LpContent,
+	LpItems,
+	Lph1,
+	Lpp,
+	Lpbtn,
 } from './HeroElements';
 
 function Hero() {
@@ -18,17 +20,17 @@ function Hero() {
 	};
 
 	return (
-		<HeroContainer>
+		<LpContainer>
 			<NavBar toggle={toggle} />
 			<Sidebar isOpen={isOpen} toggle={toggle} />
-			<HeroContent>
-				<HeroItems>
-					<HeroH1>Secrets to Mouth-watering Recipes</HeroH1>
-					<HeroP>Get recipes matching your needs in moments!</HeroP>
-					<HeroBtn>Start Now</HeroBtn>
-				</HeroItems>
-			</HeroContent>
-		</HeroContainer>
+			<LpContent>
+				<LpItems>
+					<Lph1>Secrets to Mouth-watering Recipes</Lph1>
+					<Lpp>Get recipes matching your needs in moments!</Lpp>
+					<Lpbtn>Start Now</Lpbtn>
+				</LpItems>
+			</LpContent>
+		</LpContainer>
 	);
 }
 
