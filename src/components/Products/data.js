@@ -1,8 +1,9 @@
 import indian from '../../images/indian.jpg';
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-2.jpg';
+import product from '../../images/thai.jpg';
+import product2 from '../../images/french.jpg';
+import product3 from '../../images/chinese.jpg';
 import product6 from '../../images/product-6.jpg';
+import product1 from '../../images/product-1.jpg';
 import sweet1 from '../../images/sweet3.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
@@ -34,7 +35,7 @@ export const productData = [
 	},
 
 	{
-		img: product1,
+		img: product,
 		alt: 'Pizza',
 		name: 'Thai',
 		// desc: 'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
